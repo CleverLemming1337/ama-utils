@@ -1,0 +1,2 @@
+set :1 !48 :1 ; should throw AMACommandWarning
+set :0 !48    ; should throw AMARegisterError
