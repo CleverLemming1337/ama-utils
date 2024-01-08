@@ -107,7 +107,7 @@ def parseLines(lines):
     except AMAWarning as warn:
         print(f"\033[33m{warn.__class__.__name__}: Line {warn.line}: {warn.text}\033[0m")
         
-version = "0.1.0"
+version = "0.2.0"
 specVersion = "1.4"
 
 flag = False
